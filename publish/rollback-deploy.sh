@@ -48,8 +48,8 @@ git checkout "$ENV"
 git reset --hard "$ROLLBACK_TAG"
 
 if git remote get-url origin >/dev/null 2>&1; then
-  git push -f origin staging
-  echo "Pushed staging to origin"
+  git push -f origin "$ENV"
+  echo "Pushed $ENV to origin"
 fi
 
 git checkout "$CURRENT_BRANCH"
