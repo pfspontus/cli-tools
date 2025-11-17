@@ -8,6 +8,7 @@ Varje verktyg ligger i en egen katalog och kan köras direkt i terminalen.
 ```
 cli-tools/
 ├── new-from-template.sh      # skapa nytt repo från mall
+├── new-electron-app.sh       # skapa electron app + typescript
 └── publish/                  # publiceringsflöde för git/Cloudflare Pages
     ├── README.md
     ├── deploy-to.sh
